@@ -9,19 +9,19 @@
 <body>
     <center>
     <br>
-    <img src="https://raw.githubusercontent.com/HamzahHanif/foto/main/WhatsApp%20Image%202023-09-11%20at%2023.08.27.jpeg" alt="Foto Profil" style="width: 100px; "><br>
+    <img src="https://raw.githubusercontent.com/HamzahHanif/foto/main/AB_2117051032_HamzahHanif_SWAFOTO.jpeg" alt="Foto Profil" style="width: 100px;border-radius :50% "><br>
 
-    <div class="badge bg-light text-dark">
+    <div class="badge bg-light text-dark" style="width:5rem">
         <?= $nama?>
     </div>
     <br>
 
-    <div class="badge bg-light text-dark">
+    <div class="badge bg-light text-dark" style="width:5rem">
         <?= $kelas?>
     </div>
     <br>
 
-    <div class="badge bg-light text-dark">
+    <div class="badge bg-light text-dark" style="width:5rem">
         <?= $npm?>
     </div>
     <br>
