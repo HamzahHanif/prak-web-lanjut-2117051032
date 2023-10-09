@@ -9,20 +9,22 @@
 <body>
     <center>
     <br>
-    <img src="https://raw.githubusercontent.com/HamzahHanif/foto/main/AB_2117051032_HamzahHanif_SWAFOTO.jpeg" alt="Foto Profil" style="width: 100px;border-radius :50% "><br>
+    <img src="<?= $user['foto']?? base_url('/assets/img/cod.png') ?>" alt="Foto Profil" style="width: 100px;border-radius :50% "><br>
 
+    <!-- https://raw.githubusercontent.com/HamzahHanif/foto/main/AB_2117051032_HamzahHanif_SWAFOTO.jpeg -->
+    
     <div class="badge bg-light text-dark" style="width:5rem">
-        <?= $nama?>
+        <?= $user['nama']?>
     </div>
     <br>
 
     <div class="badge bg-light text-dark" style="width:5rem">
-        <?= $kelas?>
+        <?= $user['nama_kelas']?>
     </div>
     <br>
 
     <div class="badge bg-light text-dark" style="width:5rem">
-        <?= $npm?>
+        <?= $user['npm']?>
     </div>
     <br>
 
