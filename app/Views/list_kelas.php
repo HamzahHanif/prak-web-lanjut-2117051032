@@ -37,14 +37,14 @@
                                 <td><?= $kelas['nama_kelas']?></td>
                                 <td>
                                     
-                                        <a href="<?= base_url('kelas/' . $kelas['id'].'/edit')?>"class="btn btn-warning">Edit</a>
-                                    
-                                    <button type="submit" class="btn btn-danger">Hapus</button>
-                                </td>
-                                <form action="<?=base_url('kelas/'.$kelas['id'])?>" method="POST">
+                                    <a href="<?= base_url('kelas/' . $kelas['id'].'/edit')?>"class="btn btn-warning">Edit</a>
+                                    <form action="<?=base_url('kelas/'.$kelas['id'])?>" method="POST">
                                     <input type="hidden" name="_method" value="DELETE">
                                     <?=csrf_field()?>
-                                </form>
+                                    <button type="submit" class="btn btn-danger">Hapus</button></form>
+                                    
+                                </td>
+                                
                             </tr>
                             <?php
                             }
